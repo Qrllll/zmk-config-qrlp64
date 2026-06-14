@@ -1,0 +1,8 @@
+config SHIELD_QRLP64_DONGLE
+def_bool $(shields_list_contains,qrlp64_dongle)
+
+config SHIELD_QRLP64_LEFT
+def_bool $(shields_list_contains,qrlp64_left)
+
+config SHIELD_QRLP64_RIGHT
+def_bool $(shields_list_contains,qrlp64_right)

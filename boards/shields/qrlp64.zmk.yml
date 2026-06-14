@@ -1,0 +1,12 @@
+file_format: "1"
+id: qrlp64
+name: QRLP64
+type: shield
+url: https://github.com/Qrllll/zmk-config-qrlp64
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - cb70s_left
+  - cb70s_right
