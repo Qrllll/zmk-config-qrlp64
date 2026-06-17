@@ -1,5 +1,8 @@
 #include "qrlp64.dtsi" // Notice that the main dtsi files are included in the overlay.
 
+#include <dt-bindings/zmk/mouse.h>
+
+
 &kscan0 {
 row-gpios
 = <&pro_micro 18 (GPIO_ACTIVE_HIGH  | GPIO_PULL_DOWN)>
