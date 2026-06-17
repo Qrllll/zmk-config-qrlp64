@@ -79,7 +79,7 @@
 		    &kp TAB     &kp Q       &kp W      &kp E     &kp R     &kp T                      &kp Y    &kp U  &kp I       &kp O      &kp P          &kp LBKT              &kp RBKT         &kp BSLH
 		    &mo 2       &kp A       &kp S      &kp D     &kp F     &kp G                      &kp H    &kp J  &kp K       &kp L      &kp SEMI       &kp SQT               &kp ENTER        &kp OUT
 		    &kp LSHIFT  &kp Z       &kp X      &kp C     &kp V     &kp B                      &kp N    &kp M  &msc SCRL_UP   &msc SCRL_DOWN    &mkp MB3       &mmv MOVE_UP          &mkp MB2         &kp OUT
-			&kp LCTRL   &kp LWIN    &kp LALT   &kp SPACE &kp OUT   &kp OUT                    &kp OUT  &kp SPACE  &to 0       &mkp MB1   &mmv MOVE_LEFT &mmv MOVE_MOVE_DOWN   &mmv MOVE_RIGHT  &kp OUT
+			&kp LCTRL   &kp LWIN    &kp LALT   &kp SPACE &kp OUT   &kp OUT                    &kp OUT  &kp SPACE  &to 0       &mkp MB1   &mmv MOVE_LEFT &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &kp OUT
 			>;
 		};
 
