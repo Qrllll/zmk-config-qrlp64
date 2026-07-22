@@ -8,13 +8,13 @@
 # board: [ "nice_nano" ]
 # shield: [ "corne_left", "corne_right" ]
 include:
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: qrlp64_dongle
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: qrlp64_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: qrlp64_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
